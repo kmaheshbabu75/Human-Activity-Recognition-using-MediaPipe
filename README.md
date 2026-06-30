@@ -24,7 +24,6 @@
 
 - [Project Overview](#-project-overview)
 - [Features](#-features)
-- [Demo](#-demo)
 - [Architecture](#-architecture)
 - [Detected Activities](#-detected-activities)
 - [Anomaly Alert System](#-anomaly-alert-system)
@@ -36,9 +35,6 @@
 - [Challenges & Solutions](#-challenges--solutions)
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-
 ---
 
 ## 📖 Project Overview
@@ -49,7 +45,6 @@ This project performs **real-time human activity recognition** from a live webca
 
 - Researchers exploring pose-based activity recognition
 - Security and surveillance system developers
-- Students building ML/CV portfolios targeting IEEE/SCOPUS publication
 - Developers integrating health or workplace safety monitoring
 
 ### Why It Exists
@@ -84,16 +79,6 @@ Traditional video-based activity recognition systems require heavy deep learning
 - Graceful webcam initialization with fallback across multiple device indices
 - Configurable **alert threshold**, **alertable activities list**, and **email credentials** via environment variables
 - Clean separation of detection logic, visualization, and alert dispatch
-
----
-
-## 🎬 Demo
-
-> **Replace these placeholders with actual screenshots or GIFs from your system.**
-
-| Live Detection | Anomaly Alert Overlay |
-|---|---|
-| ![Live Detection](assets/demo_detection.gif) | ![Anomaly Alert](assets/demo_alert.gif) |
 
 ---
 
@@ -231,23 +216,6 @@ python activity_recognition.py
 
 ---
 
-## 📁 Code Structure
-
-```
-har-anomaly-detection/
-│
-├── activity_recognition.py     # Main script — all logic lives here
-│
-├── assets/                     # (Placeholder) Screenshots and demo GIFs
-│   ├── banner.png
-│   ├── demo_detection.gif
-│   └── demo_alert.gif
-│
-├── .env                        # (Git-ignored) Email credentials
-├── .gitignore
-└── README.md
-```
-
 ### Key Functions
 
 | Function | Purpose |
@@ -307,7 +275,6 @@ har-anomaly-detection/
 - [ ] Support for video file input (not just live webcam)
 - [ ] Logging activity timeline to CSV or SQLite
 - [ ] Docker containerization
-- [ ] IEEE/SCOPUS research paper publication
 
 ---
 
@@ -349,45 +316,6 @@ Please include:
 - Expected vs. actual behavior
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-```
-MIT License
-
-Copyright (c) 2025 Mahesh Babu K.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-## 📬 Contact
-
-| Platform | Link |
-|---|---|
-| **GitHub** | [github.com/your-username](https://github.com/your-username) |
-| **LinkedIn** | [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile) |
-| **Portfolio** | [your-portfolio.dev](https://your-portfolio.dev) |
-| **Email** | your-email@example.com |
 
 ---
 
